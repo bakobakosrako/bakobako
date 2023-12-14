@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona</title>
+    <!-- Podłącz fonty z Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <!-- Podłącz plik CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Utwórz kontener główny dla całej strony -->
+    <div class="container">
+        <!-- Utwórz sekcję O Mnie -->
+        <section class="about">
+            <h1>Taylor Swift</h1>
+            <p></p>
+            <ul>
+                <li>Godzina: 17.00</li>
+                <li>Miasto: Czarnków</li>
+                <li>miejsce:</li>
+            </ul>
+        </section>
+        <!-- Utwórz sekcję Projekty -->
+        <section class="projects">
+            <h2></h2>
+            <p>Serdecznie Zapraszamy</p>
+            <section class="contact">
+                <h2>Bilet</h2>
+                <p>Bilet możesz kupić tutaj</p>
+                <!-- Utwórz formularz kontaktowy -->
+                <form action="send.php" method="post">
+                    <div class="form-group">
+                        <label for="name">Imię i nazwisko</label>
+                        <input type="text" id="name" name="name" placeholder="Wpisz swoje imię i nazwisko" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adres e-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Wpisz swój adres e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Numer telefonu</label>
+                        <input type="text" id="subject" name="subject" placeholder="Wpisz numer telefonu" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Numer konta</label>
+                        <textarea id="message" name="message" placeholder="Wpisz numer konta" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Kup</button>
+                    </div>
+                </form>
+            </section>
+            <!-- Utwórz kontener dla galerii projektów -->
+            <div class="gallery">
+                <!-- Utwórz elementy dla każdego projektu -->
+                <div class="item">
+                    <img src="Taylor-Swift-czlowiekiem-roku--Time-a-.jpg" alt="Projekt 1">
+                    <div class="overlay">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="ts.webp" alt="Projekt 2">
+
+                </div>
+            </div>
+        </section>
+        <!-- Utwórz sekcję Umiejętności -->
+        <!-- Utwórz sekcję Kontakt -->
+
+    </div>
+</body>
+</html>
